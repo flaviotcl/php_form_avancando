@@ -18,6 +18,8 @@ $_SESSION['csrf_token'] = sha1(rand(1,20000));
         <input name="nome" type="text" placeholder="nome"><br>
         <input name="email" type="email" placeholder="email"><br>
         <textarea name="descricao" placeholder="descricao"></textarea><br>
+        <img src="captcha.php">
+        <input name="_captcha" type="text" placeholder="Digite as Letras"> 
         <input type="submit" value="Enviar">
     </form>
 </body>
