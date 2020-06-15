@@ -17,6 +17,7 @@ $_SESSION['csrf_token'] = sha1(rand(1,20000));
         <input type="hidden" name="_csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
         <input name="nome" type="text" placeholder="nome"><br>
         <input name="email" type="email" placeholder="email"><br>
+        <input name="url" type="text" placeholder="Seu site"><br>
         <textarea name="descricao" placeholder="descricao"></textarea><br>
         <img src="captcha.php">
         <input name="_captcha" type="text" placeholder="Digite as Letras"> 
